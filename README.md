@@ -99,5 +99,5 @@ Use Case Diagrams are a visual modeling technique used in Requirement Analysis t
 
 The diagram below illustrates a simplified version of a hotel booking platform's use case model. It includes two main actors — **Customer** and **Hotel Manager** — and outlines their core interactions with the system.
 
-![Use Case Diagram for Booking System]https://drive.google.com/file/d/1ot82aoYJhj2kxKdPQzHf33iLMy6T7dI7/view?usp=sharing
+alx-booking-uc.png
 
