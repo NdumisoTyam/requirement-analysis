@@ -85,4 +85,19 @@ Non-functional requirements specify **how the system should perform** — defini
 ---
 
 Both types of requirements are essential: functional requirements ensure the system *does* what it's supposed to, while non-functional requirements ensure it *performs* well and is usable, secure, and maintainable.
+## Use Case Diagrams
+
+Use Case Diagrams are a visual modeling technique used in Requirement Analysis to represent the interactions between users (actors) and the system. They help stakeholders and developers understand the functional scope of the system from a user's perspective.
+
+### 🔍 Benefits of Use Case Diagrams:
+- Provide a clear overview of system functionality.
+- Help identify different user roles and their interactions.
+- Serve as a communication bridge between non-technical stakeholders and technical teams.
+- Assist in validating functional requirements early in the development process.
+
+### 🏨 Use Case Diagram for Booking System
+
+The diagram below illustrates a simplified version of a hotel booking platform's use case model. It includes two main actors — **Customer** and **Hotel Manager** — and outlines their core interactions with the system.
+
+![Use Case Diagram for Booking System](alx-booking-uc.png)
 
