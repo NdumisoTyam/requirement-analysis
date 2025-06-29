@@ -50,4 +50,39 @@ Requirement Analysis consists of several structured activities that help teams a
 
 - **Requirement Validation**  
   In this final step, the documented requirements are reviewed and validated with stakeholders to ensure accuracy, completeness, and alignment with business goals. Validation helps confirm that the requirements are ready for use in system design and development.
+## Types of Requirements
+
+### Functional Requirements
+
+Functional requirements define what the system **should do** — the core features and behaviors that enable users and stakeholders to interact with the system. These are derived directly from the business needs.
+
+**Examples for a Hotel Booking Management System:**
+
+- **User Registration and Login**: Users (both customers and hotel managers) should be able to register and securely log in to the platform.
+- **Hotel Listing Management**: Hotel managers should be able to add, update, and delete their property listings.
+- **Search Functionality**: Customers should be able to search for hotels by location, price, rating, and availability using the search service (Elasticsearch).
+- **Booking Creation**: Customers must be able to book hotels and receive confirmation.
+- **Payment Integration**: The system should allow customers to pay via third-party payment services.
+- **View Booking History**: Both customers and managers should be able to view current and past booking records.
+- **Notification System**: Notifications should be sent to customers and managers when bookings are made or offers are available (via Kafka consumer).
+
+---
+
+### Non-functional Requirements
+
+Non-functional requirements specify **how the system should perform** — defining performance, scalability, reliability, and other quality attributes that support the functional requirements.
+
+**Examples for a Hotel Booking Management System:**
+
+- **Performance**: Search results should be returned in under 2 seconds, even under high user traffic.
+- **Scalability**: The system should support horizontal scaling to handle millions of user requests simultaneously (microservices architecture supports this).
+- **Availability**: The booking service should have an uptime of 99.9% to ensure continuous availability for users.
+- **Security**: All user data must be encrypted in transit and at rest; secure authentication must be enforced.
+- **Data Consistency**: Database operations (e.g., booking confirmations) must ensure data consistency across microservices using messaging queues.
+- **Caching**: Frequently accessed data should be cached using Redis to reduce database load and response time.
+- **Archival and Big Data Handling**: Old booking data should be archived using Cassandra and Hadoop to enable long-term data analysis.
+
+---
+
+Both types of requirements are essential: functional requirements ensure the system *does* what it's supposed to, while non-functional requirements ensure it *performs* well and is usable, secure, and maintainable.
 
