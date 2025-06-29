@@ -100,4 +100,24 @@ Use Case Diagrams are a visual modeling technique used in Requirement Analysis t
 The diagram below illustrates a simplified version of a hotel booking platform's use case model. It includes two main actors — **Customer** and **Hotel Manager** — and outlines their core interactions with the system.
 
 alx-booking-uc.png
+## Acceptance Criteria
+
+Acceptance Criteria are a set of predefined requirements that a feature or system must meet to be considered complete and functioning as expected. They play a critical role in requirement analysis by providing clear, measurable conditions that must be fulfilled before a product or feature can be accepted by the stakeholders or end-users.
+
+### Importance of Acceptance Criteria
+
+- **Clarity:** They help ensure that all stakeholders (developers, testers, product owners, clients) have a shared understanding of what the feature should do.
+- **Verification:** Acceptance criteria provide a basis for testing and validation, making it easier to confirm if the feature meets the desired requirements.
+- **Scope Control:** They help prevent scope creep by defining the boundaries of what the feature includes and what it does not.
+- **Improved Communication:** Clear acceptance criteria reduce ambiguity and misunderstandings during the development process.
+
+### Example: Acceptance Criteria for Checkout Feature in Booking Management System
+
+- The user can select multiple bookings to checkout in one transaction.
+- The system calculates the total cost including taxes and applicable discounts.
+- The payment gateway accepts valid credit/debit card details and processes the payment securely.
+- Upon successful payment, the system generates a booking confirmation with a unique reference number.
+- The system sends an email receipt to the user’s registered email address immediately after checkout.
+- If payment fails, the user receives a clear error message and is prompted to retry or choose another payment method.
+- The checkout process must be completed within 5 minutes or the session expires for security reasons.
 
