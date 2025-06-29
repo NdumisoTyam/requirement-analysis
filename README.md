@@ -32,4 +32,22 @@ By identifying requirements early, teams can avoid costly rework and delays late
 
 ### 3. Enhances Product Quality and User Satisfaction
 Understanding and capturing the real needs of users ensures that the final product meets expectations and delivers value. Requirement Analysis leads to better planning, more accurate testing, and ultimately, a product that solves the right problems effectively.
+## Key Activities in Requirement Analysis
+
+Requirement Analysis consists of several structured activities that help teams accurately define and manage software requirements. Below are the five key activities involved:
+
+- **Requirement Gathering**  
+  This is the initial step where information about what the software needs to do is collected from stakeholders through interviews, surveys, observation, and existing documentation.
+
+- **Requirement Elicitation**  
+  In this phase, deeper exploration is conducted to uncover the true needs of users and stakeholders. Techniques like brainstorming, prototyping, use case development, and focus groups are used to refine and clarify requirements.
+
+- **Requirement Documentation**  
+  All gathered and elicited requirements are recorded in a clear and structured format. This includes requirement specification documents, use cases, user stories, and diagrams that serve as a reference throughout the development cycle.
+
+- **Requirement Analysis and Modeling**  
+  The collected requirements are analyzed for feasibility, consistency, and completeness. Models such as data flow diagrams (DFDs), entity-relationship diagrams (ERDs), and UML diagrams are used to visually represent the system’s functionality and structure.
+
+- **Requirement Validation**  
+  In this final step, the documented requirements are reviewed and validated with stakeholders to ensure accuracy, completeness, and alignment with business goals. Validation helps confirm that the requirements are ready for use in system design and development.
 
